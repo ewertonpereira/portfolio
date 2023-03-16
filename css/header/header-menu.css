@@ -1,0 +1,37 @@
+.header-menu {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    right: 0;
+    top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .header-menu {
+        background-color: #1E1E1E;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        color: #F5F7FA;
+        display: flex;
+        height: 0px;
+        position: absolute;
+        top: 35px;
+        margin: 0;
+        opacity: 50%;
+        overflow-y: hidden;
+        right: 0;
+        text-align: center;
+        transition: .6s;
+        visibility: hidden;
+        width: 30%;
+        z-index: 1000;
+    }
+
+    .header-menu.active {
+        display: block;
+        height: calc(100vh - 35px);
+        overflow-y: auto;
+        visibility: visible;
+    }
+}
