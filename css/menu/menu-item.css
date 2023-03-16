@@ -1,16 +1,17 @@
-.header-menu-item {
+.menu__item {
     font-size: 1.5rem;
     margin: 0;
     padding: 1rem;
+    cursor: pointer;
 }
 
-.header-menu-item:hover {
+.menu__item:hover {
     color: #FFC72C;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 @media screen and (max-width: 600px) {
-    .header-menu-item {
+    .menu__item {
         margin: 0 1rem;
         padding: 1rem;  
     }

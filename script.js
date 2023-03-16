@@ -1,14 +1,13 @@
-const buttonHeaderMenu = document.querySelector('[data-button-header-menu]')
+const buttonMenu = document.querySelector('[data-button__menu]')
 
-buttonHeaderMenu.addEventListener('click', (e) => {
+buttonMenu.addEventListener('click', (e) => {
     e.preventDefault()
 
-    const headerMenu = document.querySelector('[data-header-menu]')
-    const buttonHeaderMenu = document.querySelector('[data-button-header-menu]')
-    
-    headerMenu.classList.toggle('active')
+    const menuSelection = document.querySelector('[data-menu__selection]')
 
-    headerMenu.classList.contains('active') 
-        ? buttonHeaderMenu.innerHTML = 'close'
-        : buttonHeaderMenu.innerHTML = 'menu'
+    menuSelection.classList.toggle('active')
+
+    menuSelection.classList.contains('active') 
+        ? buttonMenu.innerHTML = 'close'
+        : buttonMenu.innerHTML = 'menu'
 })

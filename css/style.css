@@ -7,7 +7,7 @@ body {
     font-style: italic;
 }
 
-.btn-menu-mobile {
+.btn-menu {
     background: none;
     border: none;
     color: #F5F7FA;
@@ -17,7 +17,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .btn-menu-mobile {
+    .btn-menu {
         display: block;
     }
 }

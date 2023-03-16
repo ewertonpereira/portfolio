@@ -1,4 +1,4 @@
-.header-menu {
+.menu__selection {
     align-items: center;
     display: flex;
     font-size: 1rem;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .header-menu {
+    .menu__selection {
         background-color: #1E1E1E;
         border-bottom-left-radius: 15px;
         border-top-left-radius: 15px;
@@ -28,7 +28,7 @@
         z-index: 1000;
     }
 
-    .header-menu.active {
+    .menu__selection.active {
         display: block;
         height: calc(100vh - 35px);
         overflow-y: auto;
