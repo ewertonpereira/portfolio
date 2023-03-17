@@ -2,9 +2,9 @@
     align-items: center;
     color: #F5F7FA;
     display: flex;
-    font-size: 2em;
+    font-size: 1.5rem;
     font-weight: bold;
     justify-content: space-between;
     margin: 0 auto;
-    width: 100%;
+    width: 95%;
 }
