@@ -1,3 +1,10 @@
+:root {
+    --mc-yellow: rgb(255, 199, 44);
+    --white:rgb(245, 247, 250);
+    --border-menu:rgb(245, 247, 250,.1);
+    --menu-background: rgb(30, 30, 30,.5);
+}
+
 body {
     background-attachment: fixed;
     background-image: url('../images/background-mountain.jpg');
@@ -10,7 +17,7 @@ body {
 .btn-menu {
     background: none;
     border: none;
-    color: #F5F7FA;
+    color: var(--white);
     display: none;
     font-size: 1rem;
     transition: 2s;

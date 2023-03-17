@@ -1,0 +1,21 @@
+.about-me {
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 390px) {
+    .about-me {
+        display: block;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .about-me {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        width: 100%;  
+    }
+}

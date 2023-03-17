@@ -1,0 +1,9 @@
+.description {
+    background: var(--menu-background);
+    border-radius: 15px;
+    color: var(--white);
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+}

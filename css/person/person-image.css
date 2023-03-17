@@ -1,0 +1,13 @@
+.person__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.person__image--ewerton {
+    background-image: url('/images/ewerton.jpg');
+}
