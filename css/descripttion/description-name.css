@@ -1,0 +1,8 @@
+.description__name {
+    color: var(--mc-yellow);
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}

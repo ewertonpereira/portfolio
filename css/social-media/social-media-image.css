@@ -1,0 +1,22 @@
+.social-media__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    filter: invert(81%) sepia(75%) saturate(1173%) hue-rotate(331deg) brightness(102%) contrast(102%);
+    height: 30px;
+    margin: 0 auto;
+    width: 30px;
+}
+
+.social-media__image--github {
+    background-image: url('/images/icon-github.png');
+}
+
+.social-media__image--linkedin {
+    background-image: url('/images/icon-linkedin.png');
+}
+
+.social-media__image--instagram {
+    background-image: url('/images/icon-instagram.png');
+}

@@ -1,0 +1,9 @@
+.about-me__text {
+    color: var(--font-about-me);
+    font-weight: 100;
+    margin:  0 auto;
+    text-align: center;
+    text-indent: 1.5em;
+    text-align: justify;
+    width: 90%;
+}

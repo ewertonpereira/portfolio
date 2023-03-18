@@ -1,9 +1,10 @@
 .description {
-    background: var(--menu-background);
+    /* background: var(--menu-background); */
     border-radius: 15px;
     color: var(--white);
+    text-align: center;
     margin: 0 auto;
-    padding: 2%;
+    padding: 1rem;
     margin-top: 10%;
     width: 90%;
 }

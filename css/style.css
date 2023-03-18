@@ -1,18 +1,26 @@
 :root {
     --mc-yellow: rgb(255, 199, 44);
     --white:rgb(245, 247, 250);
-    --border-menu:rgb(245, 247, 250,.1);
+
+    --background-body: #13161E;
+    --background-social-media: #191C24;
     --menu-background: rgb(30, 30, 30,.5);
+
+    --font-about-me: #C7CAD6;
 }
 
 body {
-    background-attachment: fixed;
-    background-image: url('../images/background-mountain.jpg');
-    background-size: cover;
-    background-position: center;
-    font-family: 'Mulish', sans-serif;
-    font-style: italic;
+    background: var(--background-body);
+    font-family: 'Poppins', sans-serif;
     width: 100%;
+}
+.header {
+    background-attachment: fixed;
+    background-image: url('../images/sapace.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: opacity(70%);
+    background-position: center center;
 }
 
 .btn-menu {
