@@ -1,7 +1,5 @@
 .description__text {
+    color: var(--font-light-grey);
     font-size: 1rem;
-    margin: 1rem;
     padding: 1rem;
-    text-align: justify;
-    text-indent: 1.5em;
 }

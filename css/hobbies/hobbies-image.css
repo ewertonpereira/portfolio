@@ -1,0 +1,34 @@
+.hobbies__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    filter: invert(81%) sepia(75%) saturate(1173%) hue-rotate(331deg) brightness(102%) contrast(102%);
+    height: 35px;
+    margin: 0 auto;
+    width: 35px;
+}
+
+.hobbies__image--reading {
+    background-image: url('/images/icon-reading.png');
+}
+
+.hobbies__image--bike {
+    background-image: url('/images/icon-bike.png');
+}
+
+.hobbies__image--language {
+    background-image: url('/images/icon-language.png');
+}
+
+.hobbies__image--skate {
+    background-image: url('/images/icon-skate.png');
+}
+
+.hobbies__image--walking {
+    background-image: url('/images/icons-walking.png');
+}
+
+.hobbies__image--guitar {
+    background-image: url('/images/icon-guitar.png');
+}

@@ -1,0 +1,9 @@
+.skills__item {
+    background: var(--background-social-media);
+    border-radius: 10px;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 3rem;
+}

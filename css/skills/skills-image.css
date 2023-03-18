@@ -1,0 +1,46 @@
+.skills__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    /* filter: invert(81%) sepia(75%) saturate(1173%) hue-rotate(331deg) brightness(102%) contrast(102%); */
+    height: 35px;
+    margin: 0 auto;
+    width: 35px;
+}
+
+.skills__image--html {
+    background-image: url('/images/icon-html.png');
+}
+
+.skills__image--css {
+    background-image: url('/images/icon-css.png');
+}
+
+.skills__image--javascript {
+    background-image: url('/images/icon-javascript.png');
+}
+
+.skills__image--react-native {
+    background-image: url('/images/icon-react-native.png');
+}
+
+.skills__image--figma {
+    background-image: url('/images/icon-figma.png');
+}
+
+.skills__image--git {
+    background-image: url('/images/icon-git.png');
+}
+
+.skills__image--python {
+    background-image: url('/images/icon-python.png');
+}
+
+.skills__image--jupyter {
+    background-image: url('/images/icon-jupyter.png');
+}
+
+.skills__image--ux {
+    background-image: url('/images/icon-ux.png');
+}

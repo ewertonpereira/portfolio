@@ -1,5 +1,6 @@
-.social-media {
+.hobbies {
     cursor: pointer;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
