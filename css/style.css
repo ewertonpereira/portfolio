@@ -32,6 +32,14 @@ body {
     transition: 2s;
 }
 
+footer {
+    background: var(--background-social-media);
+    color: var(--white);
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .btn-menu {
         display: block;

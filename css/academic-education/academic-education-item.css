@@ -1,0 +1,16 @@
+.academic-education__item {
+    background: var(--background-social-media);
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    margin: 1rem;
+    min-width: 300px;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .academic-education__item {
+        font-display: block;  
+    }
+}
