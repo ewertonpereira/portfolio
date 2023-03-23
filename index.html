@@ -59,6 +59,8 @@
 
     <link rel="stylesheet" href="/css/professional-experience/professional-experience.css">
     <link rel="stylesheet" href="/css/professional-experience/professional-experience-image.css">
+
+    <link rel="stylesheet" href="/css/information-form.css">
    
 </head>
 <body>
@@ -213,16 +215,63 @@
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <div ></div>
         <h1 class="hobbies__title">Experiência profissional</h1> <!--khhghfgghfhfghfghfgjkhkhj -->
-        <div    class="professional-experience">
+        <!--<div    class="professional-experience">
             <div class="professional-experience__image professional-experience__image--crypter"></div>
             <div>
                 <h2>Decodificador de texto</h2>
                 <p>Challenge  Alura Codificador</p>
             </div>
         </div>
+    </section> -->
+
+    <section>
+        <h1 class="hobbies__title" >Contato</h1>
+        <form class="information-form" action="">
+            <fieldset>
+                <legend class="description__text">Quer entrar em contato comigo?</legend>
+                <p class="description__text">Preencha o fomulário abaixo e eu entrarei em contato o mais rápido possível.</p>
+                <div class="information-contact">
+                    <div class="information-item">
+                        <input 
+                        class="information-input"
+                        type="text"
+                        name="name"
+                        id="name"
+                        data-name="data-name"
+                        required>
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="information-item">
+                        <input 
+                        class="information-input"
+                        type="email"
+                        name="email"
+                        id="email"
+                        data-name="data-email"
+                        required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="information-item">
+                        <input 
+                        class="information-input"
+                        type="text"
+                        name="subject"
+                        id="subject"
+                        data-name="data-subject"
+                        required>
+                        <label for="subject">Assunto</label>
+                    </div>
+                    <div class="information-message">
+                        <label class="description__text" for="text-box">Mensagem</label>
+                        <textarea  id="text-box" class="text-box" placeholder="Digite sua mensagem..."></textarea>
+                    </div>
+                </div>
+                
+            </fieldset>
+        </form>
     </section>
 
     <footer>
