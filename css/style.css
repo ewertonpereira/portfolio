@@ -40,6 +40,10 @@ footer {
     text-align: center;
 }
 
+footer h2 {
+    padding: .5rem;
+}
+
 @media screen and (max-width: 600px) {
     .btn-menu {
         display: block;
