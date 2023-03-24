@@ -15,7 +15,7 @@ body {
 }
 .header {
     background-attachment: fixed;
-    background-image: url('../images/sapace.jpg');
+    background-image: url('../images/background-space.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: opacity(70%);
@@ -46,5 +46,11 @@ footer h2 {
 @media screen and (max-width: 600px) {
     .btn-menu {
         display: block;
+    }
+}
+
+@media screen and (min-width: 820px){
+    .skills-hobbies {
+        display: flex;
     }
 }
