@@ -1,0 +1,33 @@
+.contact__input {
+    align-items: center;
+    background-color: var(--background-secundary);
+    border: none;
+    border-bottom: 2px solid var(--font-emphasis);
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    transition: 0.5s ease-in-out;
+    outline: 0;
+    width: 80%;
+}
+
+.contact__input:focus, .contact__input:valid {
+    background-color: var(--background-secundary);
+    color: var(--font-primary);
+} 
+
+.contact__input:focus ~ label, .contact__input:valid ~ label {
+    color: var(--font-emphasis);
+    font-size: 0.8rem;
+    transform: translateY(-24px);
+}
+
+input:-webkit-autofill {
+    color: var(--background-secundary) !important;
+}
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}

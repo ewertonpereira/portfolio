@@ -1,0 +1,15 @@
+.contact__item {
+    color: var(--font-primary);
+    position: relative;
+    margin: 20px auto;
+}
+
+.contact__item label {
+    bottom: 5px;
+    color: var(--font-primary);
+    cursor: text;
+    left: 2rem;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}

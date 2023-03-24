@@ -1,0 +1,14 @@
+.text-box {
+    background: var(--background-primary);
+    border: none;
+    border-radius: 5px;
+    color: var(--font-secundary);
+    margin: 0 auto;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    max-width: 300px;
+    min-height: 100px;
+    min-width: 300px;
+    padding: 0.5rem;
+    outline: none;
+}
