@@ -1,8 +1,15 @@
 .about-me__text {
     color: var(--font-secundary);
+    font-size: 1.5rem;
     font-weight: 100;
     margin:  0 auto;
-    text-align: center;
+    text-align: justify;
     text-indent: 1.5em;
     width: 90%;
+}
+
+@media screen and (min-width: 820px){
+    .about-me__text {
+        width: 75%;
+    }
 }
