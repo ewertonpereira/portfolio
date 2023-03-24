@@ -10,25 +10,25 @@
 }
 
 .hobbies__image--reading {
-    background-image: url('/images/icon-reading.png');
+    background-image: url('../../images/icon-reading.png');
 }
 
 .hobbies__image--bike {
-    background-image: url('/images/icon-bike.png');
+    background-image: url('../../images/icon-bike.png');
 }
 
 .hobbies__image--language {
-    background-image: url('/images/icon-language.png');
+    background-image: url('../../images/icon-language.png');
 }
 
 .hobbies__image--skate {
-    background-image: url('/images/icon-skate.png');
+    background-image: url('../../images/icon-skate.png');
 }
 
 .hobbies__image--walking {
-    background-image: url('/images/icons-walking.png');
+    background-image: url('../../images/icons-walking.png');
 }
 
 .hobbies__image--guitar {
-    background-image: url('/images/icon-guitar.png');
+    background-image: url('../../images/icon-guitar.png');
 }

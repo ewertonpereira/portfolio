@@ -10,13 +10,13 @@
 }
 
 .social-media__image--github {
-    background-image: url('/images/icon-github.png');
+    background-image: url('../../images/icon-github.png');
 }
 
 .social-media__image--linkedin {
-    background-image: url('/images/icon-linkedin.png');
+    background-image: url('../../images/icon-linkedin.png');
 }
 
 .social-media__image--instagram {
-    background-image: url('/images/icon-instagram.png');
+    background-image: url('../../images/icon-instagram.png');
 }

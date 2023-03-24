@@ -9,11 +9,10 @@
 
 @media screen and (max-width: 600px) {
     .menu__selection {
-        background-color: var(--menu-background);
+        background-color: var(--background-hamburguer);
+        backdrop-filter: blur(2px);
         border-bottom-left-radius: 15px;
         border-top-left-radius: 15px;
-        /* border: 2px solid var(--border-menu); */
-        /* border: 1px solid var(--menu-background); */
         border-right: none;
         color: var(--white);
         display: flex;
@@ -28,7 +27,6 @@
         visibility: hidden;
         width: 40%;
         z-index: 1000;
-        backdrop-filter: blur(2px);
     }
 
     .menu__selection.active {

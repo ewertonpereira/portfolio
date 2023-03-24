@@ -1,15 +1,11 @@
 :root {
     --background-primary: rgb(19, 22, 30); 
     --background-secundary: rgb(25, 28, 36);
+    --background-hamburguer: rgb(30, 30, 30,.5);
 
     --font-emphasis: rgb(255, 199, 44);
     --font-primary:rgb(245, 247, 250);
-    --font-secundary: #C7CAD6;
-
-    
-    --menu-background: rgb(30, 30, 30,.5);
-
-    
+    --font-secundary: rgb(199, 202, 214);
 }
 
 body {

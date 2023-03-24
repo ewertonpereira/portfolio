@@ -5,7 +5,7 @@
 }
 
 .menu__item:hover {
-    color: var(--mc-yellow);
+    color: var(--font-emphasis);
     font-size: 1.6rem;
 }
 

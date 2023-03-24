@@ -9,16 +9,16 @@
 }
 
 .academic-education__image--ftec {
-    background-image: url('/images/ftec-logo1.png');
+    background-image: url('../../images/ftec-logo1.png');
     filter: invert(211%) sepia(5%) saturate(1173%) hue-rotate(531deg) brightness(202%) contrast(102%);
 }
 
 .academic-education__image--google {
-    background-image: url('/images/google-logo.png');
+    background-image: url('../../images/google-logo.png');
 }
 
 .academic-education__image--alura {
-    background-image: url('/images/alura-logo.png');
+    background-image: url('../../images/alura-logo.png');
    background-size: contain;
     
 }
